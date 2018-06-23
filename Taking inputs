@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.Scanner;
+
+public class Takinginputs {
+	
+	public static void main(String args[])
+	{
+		
+		int empno,salary;
+		String name, address;
+			Scanner sci = new Scanner(System.in);
+			
+			System.out.println("enter the emp no");
+			empno = sci.nextInt();
+			System.out.println("salary");
+			name=sci.next();
+			System.out.println("name");
+			salary = sci.nextInt();
+			System.out.println("address");
+			address = sci.next();
+			System.out.println("empno " +empno+ " name " + name +  " salary "+  salary  + " address " + address);
+		    sci.close(); 
+	}
+
+}
