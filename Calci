@@ -1,0 +1,45 @@
+import java.util.Scanner;
+public class Calci
+{
+	public static void main(String args[])
+	{
+		int num1;
+		int num2;
+		String operation;
+			
+			Scanner sc = new Scanner(System.in);
+				System.out.println("Enter the first number");
+				num1 = sc.nextInt();
+
+				System.out.println("Enter the Second number");
+				num2 = sc.nextInt();
+
+				 System.out.println("Please enter operation");
+				 operation = sc.next();
+
+
+				if( operation == "+");
+		{
+					System.out.println("addition of two numbers: "  + (num1 + num2));
+					
+		}
+		
+					
+				if( operation == "*");
+		{
+					System.out.println("multiplication of two numbers:  "+  num1 * num2);
+				
+		}
+				if( operation == "/");
+		{
+					System.out.println("division of two numbers:  " + num1 / num2);
+					
+		}
+				if( operation == "-");
+		{
+					System.out.println("subtraction  of two numbers :"+  ( num1 - num2));
+					
+		}
+	
+	}
+}
