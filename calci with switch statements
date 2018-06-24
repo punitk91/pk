@@ -1,0 +1,48 @@
+import java.util.Scanner;
+class Calci 
+{
+	public static void main(String[] args) 
+	{
+		int num1;
+		int num2;
+		String operation;
+		
+      Scanner sci = new Scanner(System.in);
+
+
+
+		System.out.println("Enter the first number");
+		num1 = sci.nextInt();
+
+		System.out.println("Enter the Second number");
+		num2 = sci.nextInt();
+
+		System.out.println("Enter the operatror");
+		operation = sci.next();
+
+
+		switch(operation)
+		{
+			case  "+":
+			System.out.println("result" + (num1 + num2) );
+			break;
+
+			case "-":
+			System.out.println("result" + (num1 - num2) );
+			break;
+			
+			case "*":
+			System.out.println("resutt" + (num1 * num2 ));
+			break;
+
+			case "/":
+			System.out.println("result" + (num1 / num2 ));
+			break;
+
+
+		}
+	}
+}
+
+
+
