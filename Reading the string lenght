@@ -1,0 +1,22 @@
+class D
+{
+	public static void main(String[] args) 
+	{
+		String str = new String("i love my india");
+		String str1 = new String("i love you anushka");
+
+		System.out.println("lenght of string first is   " + str.length());
+		System.out.println(str.length());
+
+		System.out.println("lenght of string second is " + str1.length());
+		System.out.println(str1.length());
+			
+		
+
+	}
+}
+
+
+str.length is the pre defiend method.
+initaize the string as String str = new String("");
+Print String;
