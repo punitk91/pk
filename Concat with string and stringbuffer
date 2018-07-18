@@ -1,0 +1,15 @@
+class Github
+{
+	public static void main(String[] args) 
+	{
+	   
+	   String s1="Vasu";  //// once declared string cannot add further.vasu will be printed.
+	   s1.concat("dev");
+       System.out.println(s1);
+
+       StringBuffer s2 = new StringBuffer("Punit"); /// if we put append other words in string buffer other words will be added.
+	   s2.append("will be happy");
+       System.out.println(s2);
+
+	}
+}
