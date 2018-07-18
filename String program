@@ -1,0 +1,11 @@
+class Xyz
+{
+	public static void main(String[] args)
+	{
+		String s1="Ratan";
+		System.out.println(s1);
+
+		String s2 = new String("Punit");
+		System.out.println(s2);
+	}
+}
