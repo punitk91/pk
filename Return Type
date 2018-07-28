@@ -1,0 +1,22 @@
+class Punit{
+
+	int m1(){
+		System.out.println("m1 without return type");
+		 return 10;
+	}
+
+	float m2(){
+	System.out.println("M2 RETURN TYPE FLOAT");
+	return 10.50f;
+    }
+
+	public static void main(String[] args) 
+	{
+		Punit t = new Punit();
+		int x = t.m1();
+		System.out.println(x);
+
+		float y=t.m2();
+		System.out.println(y);
+     }
+}
