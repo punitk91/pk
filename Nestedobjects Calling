@@ -1,0 +1,12 @@
+var myObj = {
+    "prop" : "Punit",
+    "prop1" : 123,
+    "prop2" : true,
+    "myObj2" : {
+        
+     "prop3" : "Kulkarni",  
+    }
+    
+};
+
+console.log(myObj.myObj2);
