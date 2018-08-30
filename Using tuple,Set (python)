@@ -1,0 +1,28 @@
+#tuple = ("punit","kulkarni","prakash")
+#tuple[1] = "blackcurrent"
+#print(tuple)
+
+
+#tuple = ("Punit","kulkarni","himanshi","prakash","rohit")
+#for l in tuple:
+# print(l)
+
+
+#thisset = {"bangalore","bidar","gulbarga"}
+#print(len(thisset))
+
+
+#thisset = {"PuNIT","kULAKRNI","gulbarga"}
+#thisset.add("vaishnavi")
+#print(thisset)
+
+
+#thisset = {"Punit", "gulbaraga","bidar","bangalore"}
+#thisset.remove("bangalore")
+#print(thisset)
+
+
+
+
+
+ 
